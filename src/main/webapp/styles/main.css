@@ -1,0 +1,88 @@
+/* Reset cơ bản */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Toàn bộ trang */
+body {
+    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+/* Khung form */
+form {
+    background: #fff;
+    padding: 2em;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 450px;
+}
+
+/* Tiêu đề */
+h1 {
+    font-size: 1.6em;
+    color: #006d77;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+h2 {
+    font-size: 1.3em;
+    color: #006d77;
+    margin-bottom: 0.75em;
+}
+
+/* Nhãn + input */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+label {
+    font-weight: 600;
+    margin-bottom: 0.3em;
+}
+input[type="text"], 
+input[type="email"] {
+    padding: 0.6em;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: border-color 0.3s;
+}
+input[type="text"]:focus, 
+input[type="email"]:focus {
+    border-color: #006d77;
+    outline: none;
+}
+
+/* Thông báo nhỏ */
+span {
+    font-size: 0.9em;
+    color: #555;
+    margin-top: 0.2em;
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 0.75em;
+    border: none;
+    border-radius: 8px;
+    background: #006d77;
+    color: #fff;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+button:hover {
+    background: #004e52;
+}
